@@ -3,8 +3,7 @@ name: Build, Deploy, Invalidate
 
 on:
   push:
-    branches:
-      - [ master ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
