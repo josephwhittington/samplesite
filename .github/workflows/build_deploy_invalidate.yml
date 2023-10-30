@@ -22,4 +22,3 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: aws s3 sync ./build s3://0000.quest
-
